@@ -10,7 +10,7 @@ body{
     height: 100vh;
 }
 
-header{
+.main--header{
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -33,7 +33,23 @@ header{
     align-items: center;
 }
 
+.info{
+    flex:1;
+    background-color: blue;
+    margin:20px;
+}
+
+.hours{
+    flex:1;
+    background-color: blue;
+    margin: 20px;
+}
+
 .main{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
     height: 80%;
     width: 40%;
