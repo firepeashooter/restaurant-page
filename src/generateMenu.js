@@ -98,7 +98,6 @@ export function generateMenu(){
     foodCardFour.appendChild(foodParaFour);
 
 
-
     //art credit
     const artCredit = document.createElement("h3");
     artCredit.textContent = "Art by ___";
