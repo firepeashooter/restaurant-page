@@ -80,14 +80,40 @@ export function generateMenu(){
     foodCardThree.appendChild(foodImageThree);
     foodCardThree.appendChild(foodParaThree);
 
+    const foodCardFour = document.createElement("div");
+    foodCardFour.classList.add("food--card");
+
+    const foodHeaderFour = document.createElement("h3");
+    foodHeaderFour.textContent = "Item 3";
+
+    const foodImageFour = document.createElement("img");
+    foodImageFour.src = star;
+    foodImageFour.classList.add("food--image");
+
+    const foodParaFour = document.createElement("p");
+    foodParaFour.textContent = "Description for Food Item 3";
+
+    foodCardFour.appendChild(foodHeaderFour);
+    foodCardFour.appendChild(foodImageFour);
+    foodCardFour.appendChild(foodParaFour);
+
+
+
+    //art credit
+    const artCredit = document.createElement("h3");
+    artCredit.textContent = "Art by ___";
+    artCredit.classList.add("art--credit");
+
 
     //Add food cards to container
     cardContainer.appendChild(foodCardOne);
     cardContainer.appendChild(foodCardTwo);
     cardContainer.appendChild(foodCardThree);
+    cardContainer.appendChild(foodCardFour);
 
     mainMenu.appendChild(header);
     mainMenu.appendChild(cardContainer);
+    mainMenu.appendChild(artCredit);
 
     home.appendChild(mainMenu);
 

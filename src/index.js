@@ -35,6 +35,8 @@ navBar.addEventListener("click", (e) => {
         contactButton.classList.add("active");
         generateContact();
 
+    }else{
+        return;
     }
 
 
