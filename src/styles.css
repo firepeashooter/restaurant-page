@@ -10,6 +10,22 @@ body{
     height: 100vh;
 }
 
+p{
+    color: white;
+}
+
+h3{
+    color:white;
+    padding:0;
+    margin:0;
+}
+
+h4{
+    color:white;
+    padding:0;
+    margin:0;
+}
+
 .main--header{
     display: flex;
     justify-content: center;
@@ -33,16 +49,29 @@ body{
     align-items: center;
 }
 
+
 .info{
     flex:1;
-    background-color: blue;
+    background-color: #1a1f3d;
     margin:20px;
+    border-radius: 30px;
+    border: 15px solid black;
+    padding:20px;
 }
 
 .hours{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
     flex:1;
-    background-color: blue;
+    background-color: #1a1f3d;
     margin: 20px;
+    border-radius: 30px;
+    border: 15px solid black;
+    padding:20px;
 }
 
 .main{
