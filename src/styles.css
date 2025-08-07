@@ -30,7 +30,7 @@ h4{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    flex:0.7;
+    min-height: 50px;
     background-color: #2e2d4f; 
 
 }
