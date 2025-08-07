@@ -1,4 +1,3 @@
-import './styles.css';
 
 
 //A function that generates the home tab

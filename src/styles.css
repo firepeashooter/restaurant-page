@@ -59,6 +59,25 @@ h4{
     padding:20px;
 }
 
+.card--container{
+    display:grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.food--card{
+
+    width: 200px;
+    height: 200px;
+    background-color: #1a1f3d;
+    margin:20px;
+    border-radius: 30px;
+    border: 15px solid black;
+    padding:20px;
+
+}
+
 .hours{
 
     display:flex;
@@ -80,12 +99,29 @@ h4{
     flex-direction: column;
     justify-content: space-between;
     
+    border-radius: 20px;
     height: 80%;
     width: 40%;
-    border-radius: 20px;
+
     padding:20px;
 
     background-color: #2e2d4f;
+}
+
+.main--menu{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    border-radius: 20px;
+
+    padding:20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    background-color: #2e2d4f;
+
 }
 
 
