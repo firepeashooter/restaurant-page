@@ -1,7 +1,7 @@
 
 
 //A function that generates the home tab
-const generateHome = () => {
+export function generateHome(){
 
     const content = document.querySelector("#content");
 
@@ -62,7 +62,5 @@ const generateHome = () => {
     home.appendChild(main);
 
     content.appendChild(home);
-
-    
 
 };

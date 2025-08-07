@@ -2,7 +2,7 @@ import star from "./images/star.png";
 
 
 
-const generateMenu = () => {
+export function generateMenu(){
 
     const content = document.querySelector("#content");
 
@@ -95,4 +95,3 @@ const generateMenu = () => {
 
 };
 
-generateMenu();
