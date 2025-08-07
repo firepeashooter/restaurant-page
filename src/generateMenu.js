@@ -1,4 +1,6 @@
 import star from "./images/star.png";
+import pasta from "./images/pasta.jpg";
+import burger from "./images/burger.jpg";
 
 
 
@@ -29,14 +31,14 @@ export function generateMenu(){
     foodCardOne.classList.add("food--card");
 
     const foodHeaderOne = document.createElement("h3");
-    foodHeaderOne.textContent = "Item 1";
+    foodHeaderOne.textContent = "Wormhole Pasta";
 
     const foodImageOne = document.createElement("img");
-    foodImageOne.src = star;
+    foodImageOne.src = pasta;
     foodImageOne.classList.add("food--image");
 
     const foodParaOne = document.createElement("p");
-    foodParaOne.textContent = "Description for Food Item 1";
+    foodParaOne.textContent = "A fine pasta made from a wormhole";
 
     foodCardOne.appendChild(foodHeaderOne);
     foodCardOne.appendChild(foodImageOne);
@@ -47,14 +49,14 @@ export function generateMenu(){
     foodCardTwo.classList.add("food--card");
 
     const foodHeaderTwo = document.createElement("h3");
-    foodHeaderTwo.textContent = "Item 2";
+    foodHeaderTwo.textContent = "Meteorite Burger";
 
     const foodImageTwo = document.createElement("img");
-    foodImageTwo.src = star;
+    foodImageTwo.src = burger;
     foodImageTwo.classList.add("food--image");
 
     const foodParaTwo = document.createElement("p");
-    foodParaTwo.textContent = "Description for Food Item 2";
+    foodParaTwo.textContent = "A banging Meteorite Burger";
 
     foodCardTwo.appendChild(foodHeaderTwo);
     foodCardTwo.appendChild(foodImageTwo);
