@@ -1,6 +1,8 @@
 import star from "./images/star.png";
 import pasta from "./images/pasta.jpg";
 import burger from "./images/burger.jpg";
+import spoon from "./images/spoon.jpg";
+import kebab from "./images/kebab.jpg";
 
 
 
@@ -67,14 +69,14 @@ export function generateMenu(){
     foodCardThree.classList.add("food--card");
 
     const foodHeaderThree = document.createElement("h3");
-    foodHeaderThree.textContent = "Item 3";
+    foodHeaderThree.textContent = "Spoon of Blackhole";
 
     const foodImageThree = document.createElement("img");
-    foodImageThree.src = star;
+    foodImageThree.src = spoon;
     foodImageThree.classList.add("food--image");
 
     const foodParaThree = document.createElement("p");
-    foodParaThree.textContent = "Description for Food Item 3";
+    foodParaThree.textContent = "A spoonful of an out of this world flavour!";
 
     foodCardThree.appendChild(foodHeaderThree);
     foodCardThree.appendChild(foodImageThree);
@@ -84,14 +86,14 @@ export function generateMenu(){
     foodCardFour.classList.add("food--card");
 
     const foodHeaderFour = document.createElement("h3");
-    foodHeaderFour.textContent = "Item 3";
+    foodHeaderFour.textContent = "Star Kebab";
 
     const foodImageFour = document.createElement("img");
-    foodImageFour.src = star;
+    foodImageFour.src = kebab;
     foodImageFour.classList.add("food--image");
 
     const foodParaFour = document.createElement("p");
-    foodParaFour.textContent = "Description for Food Item 3";
+    foodParaFour.textContent = "A kebab made from our best stars";
 
     foodCardFour.appendChild(foodHeaderFour);
     foodCardFour.appendChild(foodImageFour);
@@ -100,7 +102,7 @@ export function generateMenu(){
 
     //art credit
     const artCredit = document.createElement("h3");
-    artCredit.textContent = "Art by ___";
+    artCredit.textContent = "Art by Brett";
     artCredit.classList.add("art--credit");
 
 

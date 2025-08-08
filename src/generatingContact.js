@@ -28,10 +28,10 @@ export function generateContact(){
     contactParaOne.textContent = "An aspiring chef whos dream is to taste the Universe!";
 
     const phoneOne = document.createElement("p");
-    phoneOne.textContent = "519-747-9300";
+    phoneOne.textContent = "Phone Number";
 
     const emailOne = document.createElement("p");
-    emailOne.textContent = "starlight@gmail.com";
+    emailOne.textContent = "Email";
 
     contactCardOne.appendChild(contactHeaderOne);
     contactCardOne.appendChild(contactParaOne);
@@ -49,10 +49,10 @@ export function generateContact(){
     contactParaTwo.textContent = "An aspiring artist who comes up with new dish ideas!";
 
     const phoneTwo = document.createElement("p");
-    phoneTwo.textContent = "613-892-6969";
+    phoneTwo.textContent = "Phone Number";
 
     const emailTwo = document.createElement("p");
-    emailTwo.textContent = "galaxy@gmail.com";
+    emailTwo.textContent = "email";
 
 
     contactCardTwo.appendChild(contactHeaderTwo);
